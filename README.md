@@ -19,7 +19,7 @@
 | **Shahed Rayhan** | **Project Lead & Data Strategy** |
 | **Badhan Sen Promit** | **Data Pipeline & Harmonization Engine** |
 | **Thaib Al Pidim** | **Backend Development** |
-| **Shehab Sarder** | **Frontend Development** |
+| **Shehab Sarder** | **Frontend + Backend Development** |
 | **Samiya Alam** | **Frontend Development & UI/UX** |
 | **Samira Akter** | **Research, Validation & Presentation** |
 
