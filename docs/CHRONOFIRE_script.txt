@@ -1,0 +1,32 @@
+In recent fire seasons, severe wildfires have shattered records from South Asia’s Himalayan forests to Canada and Australia. But when climate scientists analyzed NASA satellite data, they uncovered a baffling paradox: recorded fire hotspots had suddenly multiplied by over four hundred percent.
+
+Was the planet burning four times faster overnight? Or was satellite technology deceiving us?
+
+For NASA Space Apps 2026 Challenge 09, we present CHRONOFIRE: harmonizing twenty-six years of conflicting Earth observations into one synchronized, indisputable climate truth.
+
+For two decades, NASA’s MODIS sensor on Terra and Aqua provided our one-kilometer fire baseline. But in 2012, NASA launched VIIRS with three-hundred-and-seventy-five-meter optics. Because VIIRS has seven times higher pixel density, a single fire registers as multiple separate hot pixels.
+
+The result? Over one hundred and sixty-eight months of overlap, raw VIIRS records an average of four point three eight times more hotspots than MODIS for the exact same fires. Comparing raw data distorts long-term climate models, unless we fix the sensor physics.
+
+To solve this, we built CHRONOFIRE’s three-stage harmonization engine.
+
+First, we project all hotspots onto a uniform zero point zero five degree spatial grid, roughly five point five kilometers.
+
+Second, we collapse multiple intra-day detections inside each cell into a single discrete Cell-Day Fire Event, instantly removing over seventy-six percent of VIIRS clustering.
+
+Third, calibrated across fourteen years of overlap from 2012 to 2025, our transfer function eliminates ninety-five point one percent of Root Mean Square Error, restoring true scientific parity.
+
+To handle forty-one gigabytes of raw NASA FIRMS archives, we built an embedded Duck-D-B analytical engine. Using columnar Parquet, CHRONOFIRE queries sixty-seven million hotspots across Asia in under one hundred and fifty milliseconds, one hundred percent locally, with zero cloud fees and zero API keys.
+
+This is the live CHRONOFIRE platform. Built with React and Leaflet, it delivers full-screen Pan-Asian coverage across fourteen pre-indexed nations.
+
+Researchers can draw custom bounding boxes anywhere on the map to get instant spatial telemetry and export clean CSV datasets, powered entirely by free Open Street Map tiles.
+
+Here is the core deliverable: the twenty-six-year Burning Activity Calendar. Every month from 2000 to 2025 is benchmarked against its historical median. Disaster managers can immediately distinguish dangerous climate anomalies from harmless seasonal crop burning.
+
+CHRONOFIRE turns twenty-six years of fragmented satellite readings into an open, unified climate baseline, ready for real-time NOAA twenty-one feeds.
+
+Wildfires do not wait for calibration. With CHRONOFIRE, humanity now has synchronized planetary wildfire truth.
+
+Thank you. We are CHRONOFIRE.
+

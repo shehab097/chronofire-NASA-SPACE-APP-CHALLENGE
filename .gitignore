@@ -1,0 +1,31 @@
+# Environment variables and API keys
+.env
+*.env.local
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.parquet.tmp
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Data files (do not commit 40GB raw data or large parquet files)
+data/boundaries/
+data/processed/
+data/raw
+data/raw/
+*.parquet
+*.csv
+voices/
+*.wav
+
